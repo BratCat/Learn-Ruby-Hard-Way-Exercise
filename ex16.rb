@@ -8,7 +8,7 @@ $stdin.gets
 
 puts "Opening the file..."
 target = open(filename, 'w')
-
+# not needed with open in w mode
 puts "Truncating the file. Goodbye!"
 target.truncate(0)
 
