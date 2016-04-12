@@ -9,6 +9,9 @@ puts "Here's your file #{filename}:"
 # prints the file
 print txt.read
 
+# close file
+txt.close
+
 # ask the user for the filename
 print "Type the filename again: "
 # stores name of file in variable file_again and removes line break
@@ -19,3 +22,6 @@ txt_again = open(file_again)
 
 # prints the file to be read. 
 print txt_again.read
+
+# close file again
+txt_again.close
